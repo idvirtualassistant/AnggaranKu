@@ -3,23 +3,54 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Dukungan AnggaranKu. Kontak dan informasi pelaporan masalah." />
   <title>Dukungan — AnggaranKu</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
-<body style="font-family:system-ui;max-width:900px;margin:40px auto;line-height:1.6;padding:0 16px;">
-  <h1>Dukungan — AnggaranKu</h1>
+<body>
+  <div class="container">
+    <header class="topbar">
+      <div class="brand">
+        <div class="logo" aria-hidden="true"></div>
+        <div>
+          <h1>AnggaranKu</h1>
+          <p>Dukungan</p>
+        </div>
+      </div>
+      <nav class="nav" aria-label="Navigasi">
+        <a href="index.html">Beranda</a>
+        <a href="privacy.html">Privasi</a>
+        <a href="terms.html">Ketentuan</a>
+        <a href="deletion.html">Hapus Data</a>
+      </nav>
+    </header>
 
-  <h2>Kontak</h2>
-  <p>Email dukungan: <a href="mailto:editorial@virtualassistant.biz.id">editorial@virtualassistant.biz.id</a></p>
+    <main class="article">
+      <h2>Dukungan</h2>
+      <p class="meta">Butuh bantuan? Silakan hubungi kami melalui email dukungan.</p>
 
-  <h2>Informasi yang membantu saat melapor</h2>
-  <ul>
-    <li>Versi aplikasi</li>
-    <li>Tipe perangkat & versi Android</li>
-    <li>Langkah yang menyebabkan masalah</li>
-    <li>Screenshot (jika ada)</li>
-  </ul>
+      <div class="card" style="box-shadow:none;">
+        <h3>Kontak</h3>
+        <p><b>Email dukungan:</b> <a href="mailto:editorial@virtualassistant.biz.id">editorial@virtualassistant.biz.id</a></p>
+        <p class="small">Kami akan membalas secepat mungkin pada jam kerja.</p>
+      </div>
 
-  <hr />
-  <p><a href="index.html">Kembali</a></p>
+      <h3>Informasi yang membantu saat melapor</h3>
+      <ul>
+        <li>Versi aplikasi (contoh: 1.0.0)</li>
+        <li>Tipe perangkat & versi Android</li>
+        <li>Langkah yang menyebabkan masalah</li>
+        <li>Screenshot (jika ada)</li>
+      </ul>
+
+      <div class="callout">
+        Tips: tulis subjek email seperti <span class="kbd">[Bug]</span>, <span class="kbd">[Saran]</span>, atau <span class="kbd">[Pertanyaan]</span> agar mudah diproses.
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div><a href="index.html">← Kembali ke Beranda</a></div>
+    </footer>
+  </div>
 </body>
 </html>
