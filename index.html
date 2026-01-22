@@ -3,22 +3,98 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="AnggaranKu — Catat Pengeluaran & Anggaran. Aplikasi keuangan pribadi yang berjalan sepenuhnya offline." />
   <title>AnggaranKu — Catat Pengeluaran & Anggaran</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
-<body style="font-family:system-ui;max-width:900px;margin:40px auto;line-height:1.6;padding:0 16px;">
-  <h1>AnggaranKu</h1>
-  <p><b>Tagline:</b> Catat Pengeluaran & Anggaran</p>
-  <p>Aplikasi keuangan pribadi yang berjalan sepenuhnya offline.</p>
+<body>
+  <div class="container">
+    <header class="topbar">
+      <div class="brand">
+        <div class="logo" aria-hidden="true"></div>
+        <div>
+          <h1>AnggaranKu</h1>
+          <p>Catat Pengeluaran & Anggaran • Full Offline</p>
+        </div>
+      </div>
 
-  <h2>Dokumen</h2>
-  <ul>
-    <li><a href="privacy.html">Kebijakan Privasi</a></li>
-    <li><a href="terms.html">Ketentuan Penggunaan</a></li>
-    <li><a href="support.html">Dukungan</a></li>
-    <li><a href="deletion.html">Penghapusan Data</a></li>
-  </ul>
+      <nav class="nav" aria-label="Navigasi">
+        <a href="privacy.html">Privasi</a>
+        <a href="terms.html">Ketentuan</a>
+        <a href="support.html">Dukungan</a>
+        <a href="deletion.html">Hapus Data</a>
+      </nav>
+    </header>
 
-  <hr />
-  <p>Kontak: <a href="mailto:editorial@virtualassistant.biz.id">editorial@virtualassistant.biz.id</a></p>
+    <section class="hero">
+      <h2>Website Resmi AnggaranKu</h2>
+      <p class="subtitle">
+        AnggaranKu adalah aplikasi keuangan pribadi untuk mencatat pengeluaran, pemasukan, dan anggaran.
+        Aplikasi berjalan <b>sepenuhnya offline</b>—data tersimpan di perangkat Anda dan <b>tidak dikirim ke server</b>.
+      </p>
+      <div style="margin-top:12px;">
+        <span class="badge"><span class="dot" aria-hidden="true"></span>Offline • Tidak ada login • Tidak ada server</span>
+      </div>
+    </section>
+
+    <section class="grid">
+      <div class="card half">
+        <h3>Dokumen untuk Google Play</h3>
+        <p>Link berikut dapat digunakan untuk pengisian halaman aplikasi di Google Play Console.</p>
+        <ul>
+          <li><a href="privacy.html">Kebijakan Privasi</a></li>
+          <li><a href="terms.html">Ketentuan Penggunaan</a></li>
+          <li><a href="support.html">Dukungan</a></li>
+          <li><a href="deletion.html">Penghapusan Data</a></li>
+        </ul>
+      </div>
+
+      <div class="card half">
+        <h3>Kontak Dukungan</h3>
+        <p>Jika Anda membutuhkan bantuan atau ingin melaporkan bug:</p>
+        <p><b>Email:</b> <a href="mailto:editorial@virtualassistant.biz.id">editorial@virtualassistant.biz.id</a></p>
+
+        <hr class="sep" />
+        <p class="small">
+          Tips saat melapor: sertakan versi aplikasi, tipe perangkat, versi Android, dan langkah yang menyebabkan masalah.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Ringkasan Praktik Data</h3>
+        <table class="table" role="table" aria-label="Ringkasan Data">
+          <thead>
+            <tr>
+              <th>Aspek</th>
+              <th>Keterangan</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Pengumpulan data</td>
+              <td>Tidak mengumpulkan data ke server (offline).</td>
+            </tr>
+            <tr>
+              <td>Berbagi data</td>
+              <td>Tidak ada berbagi data ke pihak ketiga.</td>
+            </tr>
+            <tr>
+              <td>Penyimpanan</td>
+              <td>Data disimpan lokal di perangkat pengguna.</td>
+            </tr>
+            <tr>
+              <td>Penghapusan</td>
+              <td>Hapus dari aplikasi (jika ada) atau uninstall untuk menghapus data lokal.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div><b>AnggaranKu</b> — Catat Pengeluaran & Anggaran</div>
+      <div>Kontak: <a href="mailto:editorial@virtualassistant.biz.id">editorial@virtualassistant.biz.id</a></div>
+    </footer>
+  </div>
 </body>
 </html>
